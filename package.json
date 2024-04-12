@@ -4,11 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently \"vite\" \"cargo shuttle run --working-directory API --port 9999\"",
+    "dev": "concurrently \"vite\" \"cargo shuttle run --working-directory varust --port 9999\"",
     "dev-fe": "vite",
     "build": "tsc && vite build --emptyOutDir",
     "preview": "vite preview",
-    "deploy": "npm run build && cargo shuttle deploy --working-directory ./API"
+    "deploy": "npm run build && cargo shuttle deploy --working-directory ./varust"
   
   },
   "dependencies": {

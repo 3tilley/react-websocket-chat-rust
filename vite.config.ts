@@ -6,7 +6,7 @@ export default defineConfig({
   base: '',
   plugins: [react()],
   build: {
-    outDir: 'API/static',
+    outDir: 'varust/static',
     emptyOutDir: true
   }
 })
